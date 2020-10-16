@@ -8,36 +8,41 @@
     <title>Qiuz 1</title>
 </head>
 <body>
-    <nav class="navbar nav-home navbar-expand-lg navbar-light bg-transparante fixed-top">
+    <div class="homepage">
+        <nav class="navbar nav-home navbar-expand-lg navbar-light bg-transparante fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Herri Purba</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="homepagenav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                    <a class="nav-link" href="Profile/Profile.html">My Profile <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Hometown/Hometown.html">Hometown</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="LocalFood/LocalFood.html">Local Food</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="TouristPlace/TouristPlace.html">Tourist Place</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <img src="Profile/homepage.jpg" alt=""> -->
         <div class="container">
-            <a class="navbar-brand" href="index.html">Herri Purba</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="homepagenav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                <a class="nav-link" href="Profile/Profile.html">My Profile <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="Hometown/Hometown.html">Hometown</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="LocalFood/LocalFood.html">Local Food</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="TouristPlace/TouristPlace.html">Tourist Place</a>
-                </li>
-            </ul>
-            </div>
+            <div class="home">
+                    <div class="home-content">
+                        <div class="text-1">Hello I'm</div>
+                        <div class="text-2">Herri Purba</div>
+                    </div>
+            </div>  
         </div>
-    </nav>
-      <section class="home" id="home">
-            <div class="home-content">
-                <div class="text-1">Hello I'm</div>
-                <div class="text-2">Herri Purba</div>
-            </div>
-      </section>
+    </div>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

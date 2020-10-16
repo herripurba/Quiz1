@@ -6,16 +6,15 @@ body{
     background: linear-gradient(to left, #E2AA26, #FAE5C6 ) ;
 }
 
-.home{
-    display: flex;
-    background-image: url(profile/homepage.jpg);
-    padding: 200px 100px;
-    height: 815px;
+.homepage{
+    background-image: url(Profile/homepage.jpg);
+    background-size: 1440px 685px;
+    height: 685px;
     background-repeat: no-repeat;
-    background-size: 1440px 900px;
-    margin-top: -130px;
-    
+
 }
+
+
 
 .nav-home .navbar-brand{
     color:white;
@@ -24,7 +23,7 @@ body{
     transition: 0.3s;
 }
 .nav-home .navbar-brand:hover{
-    color: ;
+    color:#FAE5C6 ;
 }
 
 .navbar li{
