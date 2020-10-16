@@ -1,0 +1,539 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Rancho&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background: linear-gradient(to left, #E2AA26, #FAE5C6 ) ;
+}
+
+.home{
+    display: flex;
+    background-image: url(profile/homepage.jpg);
+    padding: 200px 100px;
+    height: 815px;
+    background-repeat: no-repeat;
+    background-size: 1440px 900px;
+    margin-top: -130px;
+    
+}
+
+.nav-home .navbar-brand{
+    color:white;
+    font-size: 40px;
+    font-family: 'Qwigley', cursive;
+    transition: 0.3s;
+}
+.nav-home .navbar-brand:hover{
+    color: ;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+
+#homepagenav .nav-item .nav-link{
+    color:white;
+    transition: 0.3s;
+    font-family: 'Righteous', cursive;
+    font-size: 12px;
+}
+
+#homepagenav .nav-item .nav-link:hover{
+    color: #FAE5C6;
+
+}
+
+.home-content .text-1{
+    font-size: 50px;
+}
+.home-content .text-2{
+    font-size: 100px;
+}
+.home-content{
+    color: white;
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+}
+
+/* profile */
+
+.nav-prof{
+    background-color: #606060;
+}
+.nav-prof .navbar-brand{
+    color:white;
+    font-size: 25px;
+    font-family: 'Qwigley', cursive;
+    transition: 0.3s;
+}
+.nav-prof .navbar-brand:hover{
+    color:#FAE5C6;
+}
+
+
+.prof-profile{
+    color: white;
+    margin-top: 83px;
+    border-bottom : 10px solid white;
+    padding-bottom: 50px;
+}
+
+.prof-profile .prof-title{
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    
+}
+
+.prof-profile .middle-prof img{
+    /* position: fixed; */
+    width: 80%;
+    height: 80%;
+    left: 43%;
+    top: 297px;
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 39px;
+} 
+
+
+.about-prof{
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+.detail-prof{
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+
+.prof-profile .left-prof,
+.prof-profile .right-prof{
+    padding-top: 20px;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+}
+.prof-profile .left-prof .left-title,
+.prof-profile .right-prof .right-title{
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+    /* text-decoration-line: underline; */
+}
+
+/* experience */
+.experience{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom : 10px solid white;
+}
+
+.experience .ex-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    
+}
+
+.experience .edu-title,
+.experience .org-title{
+    padding-top: 20px;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.experience .edu-info .col {
+    border: 2px solid   #E1E1E1;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #918F8F;
+    
+}
+.experience .org-info .info-item {
+    border: 2px solid   #E1E1E1;
+    
+    border-radius: 20px;
+    background-color: #918F8F;
+    
+}
+
+.experience .education,
+.experience .organization{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 39px;
+    background: #E1E1E1;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px ;
+    padding-bottom: 30px;
+    
+}
+
+.experience .edu-info .tahun,
+.experience .org-info .org-name{
+    font-family: 'Righteous', cursive;
+    font-style: unset;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    padding-bottom: 5px;
+}
+.experience .edu-info .sekolah{
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+
+.experience .org-info .org-jabatan{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* contact */
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact .contact-title{
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.contact-content .cont-me-title,
+.contact-content .follow-me-title{
+    padding-top: 20px;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-content .cont-me-item,
+.contact-content .follow-me-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;    
+    font-family: 'Righteous', cursive ;
+    font-size: 18px;
+}
+
+.contact-content a .follow-me-item{
+    color: black;
+}
+
+
+
+.contact-content .logo{
+   
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+
+}
+
+.contact-content .logo i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Hometown */
+
+.hometown{
+    padding-top: 83px;
+    border-bottom: 10px solid white;
+}
+
+.hometown .hometown-title{
+    text-align: center;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.hometown .kata-pembuka,
+.hometown .sdk{
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+.hometown .kampung{
+    font-size: 30px;
+    font-family: Rancho;
+    padding-bottom: 8px;
+}
+.hometown .sdk{
+    font-size: 15px;
+}
+
+.hometown .kantor{
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+    /* padding-top: 10px */
+}
+
+.hometown .kantor img{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* hometown lcl food */
+
+.lcl-food{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid white;
+    text-align: center;
+    font-family: Rancho;
+    
+}
+
+.lcl-food .food{
+    text-align: left;
+}
+
+.lcl-food .makanan .kopi,
+.lcl-food .makanan .durian{
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+
+}
+.lcl-food .btn{
+    background-color:#606060;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lcl-food .btn:hover{
+    background-color: #0bb5f4;
+    color: #606060;
+    
+}
+
+.lcl-food .makanan img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    /* text-align: right;    */
+}
+
+ /* hometown tourist place */
+ 
+.tourist-plc{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Rancho;
+    
+}
+
+.tourist-plc .tourist{
+    text-align: left;
+}
+
+.tourist-plc .place .sicike,
+.tourist-plc .place .silalahi{
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+
+}
+
+.tourist-plc .place img{
+    width: 100%;
+    height: 280px;
+    margin-bottom: 10px;
+    text-align: right;   
+}
+
+.tourist-plc .btn{
+    background-color:#606060;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tourist-plc .btn:hover{
+    background-color: #0bb5f4;
+    color: #606060;
+}
+
+
+/* local food page */
+.local-food{
+    padding-top: 83px;
+    border-bottom: 10px solid white;
+}
+.local-food .l-food{
+    text-align: center;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+.local-food .pengantar,
+.local-food .k-isi,
+.local-food .d-isi,
+.local-food .p-isi,
+.local-food .l-isi,
+.local-food .g-isi,
+.local-food .n-isi{
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+.local-food .k-title,
+.local-food .d-title,
+.local-food .p-title,
+.local-food .l-title,
+.local-food .g-title,
+.local-food .n-title{
+    font-size: 30px;
+    font-family: Rancho;
+    padding-bottom: 8px;
+}
+.local-food .g-kopi,
+.local-food .g-durian,
+.local-food .g-pelleng,
+.local-food .g-lappet,
+.local-food .g-ginaru,
+.local-food .g-nenas{
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+
+}
+.local-food .g-kopi img,
+.local-food .g-durian img,
+.local-food .g-pelleng img,
+.local-food .g-lappet img,
+.local-food .g-ginaru img,
+.local-food .g-nenas img{
+    width: 100%;
+    height: 280px;
+}
+/* tourist place page */
+
+.tourist-place{
+    padding-top: 83px;
+    border-bottom: 10px solid white;
+}
+.tourist-place .t-place{
+    text-align: center;
+    font-family: Rancho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+.tourist-place .pengantar,
+.tourist-place .dsicike-isi,
+.tourist-place .dsilalahi-isi,
+.tourist-place .twi-isi,
+.tourist-place .lt-isi,
+.tourist-place .bs-isi,
+.tourist-place .ps-isi,
+.tourist-place .sungai-isi,
+.tourist-place .aj-isi{
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+.tourist-place .g-silalahi,
+.tourist-place .g-twi,
+.tourist-place .g-sicike,
+.tourist-place .g-lautimah,
+.tourist-place .g-sidratas,
+.tourist-place .g-sidiangkat,
+.tourist-place .g-sungai,
+.tourist-place .g-a-terjun{
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+}
+
+.tourist-place .g-silalahi img,
+.tourist-place .g-twi img,
+.tourist-place .g-sicike img,
+.tourist-place .g-lautimah img,
+.tourist-place .g-sidratas img,
+.tourist-place .g-sidiangkat img,
+.tourist-place .g-sungai img,
+.tourist-place .g-a-terjun img{
+    width: 100%;
+    height: 280px;
+}
+
+.tourist-place .disicike-title,
+.tourist-place .dsialalhi-title,
+.tourist-place .twi-title,
+.tourist-place .lt-title,
+.tourist-place .bs-title,
+.tourist-place .ps-title,
+.tourist-place .sungai-title,
+.tourist-place .aj-title{
+    font-size: 30px;
+    font-family: Rancho;
+    padding-bottom: 8px;
+}
